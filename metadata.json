@@ -1,0 +1,5 @@
+{
+  "name": "OS CPU Scheduler Simulator",
+  "description": "A clean, minimal visual simulator for CPU scheduling algorithms (FCFS, SJF, Round Robin).",
+  "requestFramePermissions": []
+}
