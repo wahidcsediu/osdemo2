@@ -63,13 +63,19 @@ const App: React.FC = () => {
         </div>
 
         {/* Footer: Developer Info */}
-        <footer className="mt-12 border-t border-slate-200 pt-6 text-center text-slate-500 text-sm">
-            <p className="font-semibold text-slate-700 mb-2">Course: Operating Systems Lab</p>
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-4">
-                <span>Developers:</span>
-                <span className="font-medium text-slate-600">Wahid Ahmed (ID 1650)</span>
-                <span className="hidden sm:inline text-slate-300">•</span>
-                <span className="font-medium text-slate-600">Adiba Laila Noor (ID 1968)</span>
+        <footer className="mt-16 border-t-2 border-slate-200 pt-10 pb-12 text-center">
+            <p className="text-xl font-bold text-slate-600 mb-6 uppercase tracking-wider">Course: Operating Systems Lab</p>
+            
+            <div className="space-y-2">
+                <p className="text-lg font-bold text-slate-400 uppercase tracking-widest mb-4">Developers</p>
+                <div className="flex flex-col gap-4 justify-center items-center">
+                    <div className="text-4xl md:text-5xl font-black text-slate-800 tracking-tight">
+                        Wahid Ahmed <span className="text-blue-600 text-3xl font-bold block sm:inline sm:ml-2">ID 1650</span>
+                    </div>
+                    <div className="text-4xl md:text-5xl font-black text-slate-800 tracking-tight">
+                        Adiba Laila Noor <span className="text-purple-600 text-3xl font-bold block sm:inline sm:ml-2">ID 1968</span>
+                    </div>
+                </div>
             </div>
         </footer>
 
